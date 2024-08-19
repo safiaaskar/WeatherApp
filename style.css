@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: 0.2s linear;
+}
+.container {
+  position: relative;
+  background: #b5d6d6;
+  min-height: 700px;
+  color: #474747;
+}
+.weather {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  position: absolute;
+  width: 100%;
+  top: 120px;
+}
+.weather .today {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+}
+.weather .location {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: 6px;
+}
+.weather .weather-temp {
+  font-family: Josefin Sans;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 40px;
+  text-align: left;
+}
+.image {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  justify-content: center;
+  top: 226px;
+}
+.day {
+  background-image: url(./images/Clouds.png);
+  background-position: center;
+  position: absolute;
+  width: 100%;
+  height: 277px;
+  top: 355px;
+}
+.day .div {
+  text-align: center;
+  width: 100%;
+  height: 60px;
+  top: 50px;
+  justify-content: center;
+  flex-direction: column;
+  margin: 50px auto;
+}
+.week-container {
+  background: #f5f9f9;
+  border-radius: 60px 60px 0px 0px;
+  position: absolute;
+  width: 100%;
+  min-height: 270px;
+  top: 470px;
+}
+.week-list {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+.week-list li {
+  background: #e5f2f2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 28px 22px 28px 22px;
+  border: 1px solid #b5d6d6;
+  border-radius: 44px;
+  height: 150px;
+  justify-content: space-between;
+}
+div .active,
+.days div:hover {
+  background: #fee68b;
+  border-color: #fbdc64;
+  box-shadow: 0px 4px 10px 4px #fee68b4d;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
